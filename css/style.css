@@ -1,0 +1,64 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-image: url('https://s.wsj.net/public/resources/images/IF-AD624_FOREX_M_20180802165440.jpg');
+  background-color: #000;
+  background-size: 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+ 
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+.input {
+  text-align: right;
+  font-family: 'Roboto Mono',monospace;
+  font-size: 20px;
+}
+
+.button {
+  text-align: left;
+  cursor: pointer;
+  color: #fff;  
+  font-family: font-family: 'Roboto Mono',monospace;
+  font-size: 20px;
+  background-color: #fada06;
+  border: none;
+  
+  
+}
+
+.button:hover{
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
